@@ -1,0 +1,166 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    background-color: #afafaf;
+}
+
+.container {
+    width: 1140px;
+}
+
+.clear {
+    clear:both;
+}
+
+/*CSS for Header, Logo and Menu*/
+
+.header {
+    padding: 10px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+.menu a {
+    float:left;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #afafaf;
+    margin-top: 25px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color :#fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    margin-top: 25px!important;
+}
+
+.menu a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFA900;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Latest news*/
+
+.latest-three-news {
+  padding: 0;
+  margin: auto;
+}
+
+.latest-column-1 {
+	width: 370px;
+	float:left;
+	padding-right:10px;
+}
+
+.latest-column-2 {
+	width: 370px;
+	float:left;
+	padding-right:10px;
+	
+}
+
+.latest-column-3 {
+	width: 370px;
+	float:left;
+	padding-right:10px;
+	
+}
+
+.latest-news-image {
+	width: 50%;
+	padding-right: 15px;
+}
+
+.latest-news-text-style {
+	text-align: justify;
+	font-size: 14px;
+}
+
+.latest-news-heading {
+	padding: 10px 0;
+	font-family: 'Roboto Slab';
+}
+
+/*Read more link style*/
+
+.read-more-button {
+	padding: 10px 20px;
+	background-color:#428bca;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	border-radius: 10px;
+	color: #fff;
+	position:absolute;
+}
+
+.read-more-button:hover {
+	padding: 10px 20px;
+	background-color:#225480;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	border-radius: 10px;
+	color: #fff;
+	position:absolute;
+}
+
+.latest-news-article {
+	margin-top: 40px;
+}
